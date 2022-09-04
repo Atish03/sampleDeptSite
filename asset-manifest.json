@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Dept_SampleSite/static/css/main.b2c5ba81.css",
+    "main.js": "/Dept_SampleSite/static/js/main.08bf2884.js",
+    "static/media/banner.jpeg": "/Dept_SampleSite/static/media/banner.439c0d422541c20c66ea.jpeg",
+    "static/media/dep_logo_2.png": "/Dept_SampleSite/static/media/dep_logo_2.ea3f36e0a7ae4a51f780.png",
+    "index.html": "/Dept_SampleSite/index.html",
+    "static/media/wave3.svg": "/Dept_SampleSite/static/media/wave3.ce81a985d2500b5e0851.svg",
+    "main.b2c5ba81.css.map": "/Dept_SampleSite/static/css/main.b2c5ba81.css.map",
+    "main.08bf2884.js.map": "/Dept_SampleSite/static/js/main.08bf2884.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2c5ba81.css",
+    "static/js/main.08bf2884.js"
+  ]
+}
