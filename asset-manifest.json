@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/sampleDeptSite/static/css/main.b474c9ba.css",
-    "main.js": "/sampleDeptSite/static/js/main.08bf2884.js",
+    "main.css": "/sampleDeptSite/static/css/main.c89cfc2b.css",
+    "main.js": "/sampleDeptSite/static/js/main.2f14171c.js",
     "static/media/banner.jpeg": "/sampleDeptSite/static/media/banner.439c0d422541c20c66ea.jpeg",
     "static/media/dep_logo_2.png": "/sampleDeptSite/static/media/dep_logo_2.ea3f36e0a7ae4a51f780.png",
+    "static/media/option.png": "/sampleDeptSite/static/media/option.cb0178ab53788693c5a7.png",
     "index.html": "/sampleDeptSite/index.html",
     "static/media/wave3.svg": "/sampleDeptSite/static/media/wave3.ce81a985d2500b5e0851.svg",
-    "main.b474c9ba.css.map": "/sampleDeptSite/static/css/main.b474c9ba.css.map",
-    "main.08bf2884.js.map": "/sampleDeptSite/static/js/main.08bf2884.js.map"
+    "main.c89cfc2b.css.map": "/sampleDeptSite/static/css/main.c89cfc2b.css.map",
+    "main.2f14171c.js.map": "/sampleDeptSite/static/js/main.2f14171c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b474c9ba.css",
-    "static/js/main.08bf2884.js"
+    "static/css/main.c89cfc2b.css",
+    "static/js/main.2f14171c.js"
   ]
 }
