@@ -9,7 +9,7 @@
   "name": "physics_iit_ism",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://atish03.github.io/Dept_SampleSite/",
+  "homepage": "https://atish03.github.io/sampleDeptSite/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",

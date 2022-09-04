@@ -11,6 +11,16 @@ import {
   } from "react-router-dom";
 
 class Button extends React.Component {
+    constructor (props) {
+        super(props)
+        this.state = {
+            height: "max-content",
+            width: "max-content",
+            opened: true,
+        }
+        this.updateState = this.updateState.bind(this)
+    }
+
     goToFacPage () {
         document.location = "./#/faculty";
     }
@@ -18,20 +28,41 @@ class Button extends React.Component {
         document.location = "./#/home";
     }
 
+    updateState() {
+        if (this.state.opened) {
+            this.setState({
+                height: "400px",
+                width: "100%",
+                display: "flex",
+                opened: false,
+            });
+        } else {
+            this.setState({
+                height: "40px",
+                width: "60px",
+                display: "none",
+                opened: true,
+            });
+        }
+    }
+
     render() {
         return (
-            <div id="nav-bar">
-                <div className="navs" id="faculty" onClick={this.goToFacPage}>
-                    Faculty
-                </div>
-                <div className="navs" id="academics">
-                    Academics
-                </div>
-                <div className="navs" id="contact">
-                    Contact
-                </div>
-                <div className="navs default" id="home" onClick={this.goToHomePage}>
-                    Home
+            <div>
+                <div id="ocHandler" onClick={this.updateState}></div>
+                <div id="nav-bar" style={{"height": this.state.height, "width": this.state.width, "display": this.state.display}}>
+                    <div className="navs" id="faculty" onClick={this.goToFacPage}>
+                        Faculty
+                    </div>
+                    <div className="navs" id="academics">
+                        Academics
+                    </div>
+                    <div className="navs" id="contact">
+                        Contact
+                    </div>
+                    <div className="navs default" id="home" onClick={this.goToHomePage}>
+                        Home
+                    </div>
                 </div>
             </div>
         )

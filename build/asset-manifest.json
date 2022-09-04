@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Dept_SampleSite/static/css/main.b2c5ba81.css",
-    "main.js": "/Dept_SampleSite/static/js/main.08bf2884.js",
-    "static/media/banner.jpeg": "/Dept_SampleSite/static/media/banner.439c0d422541c20c66ea.jpeg",
-    "static/media/dep_logo_2.png": "/Dept_SampleSite/static/media/dep_logo_2.ea3f36e0a7ae4a51f780.png",
-    "index.html": "/Dept_SampleSite/index.html",
-    "static/media/wave3.svg": "/Dept_SampleSite/static/media/wave3.ce81a985d2500b5e0851.svg",
-    "main.b2c5ba81.css.map": "/Dept_SampleSite/static/css/main.b2c5ba81.css.map",
-    "main.08bf2884.js.map": "/Dept_SampleSite/static/js/main.08bf2884.js.map"
+    "main.css": "/sampleDeptSite/static/css/main.c89cfc2b.css",
+    "main.js": "/sampleDeptSite/static/js/main.2f14171c.js",
+    "static/media/banner.jpeg": "/sampleDeptSite/static/media/banner.439c0d422541c20c66ea.jpeg",
+    "static/media/dep_logo_2.png": "/sampleDeptSite/static/media/dep_logo_2.ea3f36e0a7ae4a51f780.png",
+    "static/media/option.png": "/sampleDeptSite/static/media/option.cb0178ab53788693c5a7.png",
+    "index.html": "/sampleDeptSite/index.html",
+    "static/media/wave3.svg": "/sampleDeptSite/static/media/wave3.ce81a985d2500b5e0851.svg",
+    "main.c89cfc2b.css.map": "/sampleDeptSite/static/css/main.c89cfc2b.css.map",
+    "main.2f14171c.js.map": "/sampleDeptSite/static/js/main.2f14171c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2c5ba81.css",
-    "static/js/main.08bf2884.js"
+    "static/css/main.c89cfc2b.css",
+    "static/js/main.2f14171c.js"
   ]
 }
