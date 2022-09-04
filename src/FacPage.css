@@ -1,0 +1,19 @@
+#members {
+    min-height: 100vh; width: calc(100% - 60px);
+    display: flex; padding: 30px;
+    flex-direction: row; flex-wrap: wrap;
+}
+
+.member {
+    position: relative;
+    height: 200px; width: 200px;
+    background-color: rgb(219, 219, 219);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(53, 53, 53, 0.315);
+    transition: all 0.2s ease-out;
+}
+
+.member:hover {
+    box-shadow: none;
+}
